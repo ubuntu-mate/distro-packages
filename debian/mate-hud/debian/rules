@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+
+DHFLAGS=--parallel
+export PYBUILD_SYSTEM=distutils
+
+%:
+	dh $@ $(DHFLAGS) --with python3 --buildsystem=pybuild
+
+override_dh_auto_clean:
+	rm -Rf mate_hud.egg-info/
+
+	# dh_auto_clean with pybuild/distutils only works if setup.py is
+	# present
+	if [ -f setup.py ]; then \
+		dh_auto_clean; \
+	fi
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..
