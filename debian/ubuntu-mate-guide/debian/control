@@ -1,7 +1,7 @@
 Source: ubuntu-mate-guide
 Section: unknown
 Priority: optional
-Maintainer: Simon Quigley <tsimonq2@ubuntu.com>
+Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.8
 Homepage: <insert the upstream URL, if relevant>

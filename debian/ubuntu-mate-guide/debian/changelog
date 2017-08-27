@@ -1,5 +1,5 @@
-ubuntu-mate-guide (17.10.0-1) unstable; urgency=medium
+ubuntu-mate-guide (17.10.0-0ubuntu1) UNRELEASED; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 27 Aug 2017 15:24:08 -0500
