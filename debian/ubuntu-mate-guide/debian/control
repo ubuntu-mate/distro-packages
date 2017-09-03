@@ -11,5 +11,6 @@ Vcs-Browser: https://github.com/ubuntu-mate/distro-packages
 Package: ubuntu-mate-guide
 Architecture: all
 Depends: yelp, ${misc:Depends}
-Description: A guide to Ubuntu MATE
+Description: Ubuntu MATE Guide
  The official Ubuntu MATE guide, to help new users navigate their system.
+ It's written in XML and is viewable by using Yelp (default) or other tools.
