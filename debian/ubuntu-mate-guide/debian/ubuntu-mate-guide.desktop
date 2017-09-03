@@ -7,5 +7,4 @@ Icon=help-browser
 Exec=yelp help:ubuntu-mate-guide
 StartupNotify=true
 Terminal=false
-Categories=GTK;Core;Documentation;
-OnlyShowIn=MATE;
+Categories=Utility;GTK;Core;Documentation;
