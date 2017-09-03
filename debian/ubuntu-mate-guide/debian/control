@@ -10,6 +10,6 @@ Vcs-Browser: https://github.com/ubuntu-mate/distro-packages
 
 Package: ubuntu-mate-guide
 Architecture: all
-Depends: ${misc:Depends}
+Depends: yelp, ${misc:Depends}
 Description: A guide to Ubuntu MATE
  The official Ubuntu MATE guide, to help new users navigate their system.
