@@ -1,4 +1,5 @@
 *.page usr/share/help/C/ubuntu-mate-guide/
 *.xml usr/share/help/C/ubuntu-mate-guide/
-figures/ usr/share/help/C/ubuntu-mate-guide/
 debian/ubuntu-mate-guide.desktop usr/share/applications/
+figures/ usr/share/help/C/ubuntu-mate-guide/
+img/ usr/share/help/C/ubuntu-mate-guide/
