@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Ubuntu MATE Guide
+Comment=Getting the help you need to use Ubuntu MATE
+Keywords=documentation;information;manual;
+Icon=help-browser
+Exec=yelp help:ubuntu-mate-guide
+StartupNotify=true
+Terminal=false
+Categories=Utility;GTK;Core;Documentation;

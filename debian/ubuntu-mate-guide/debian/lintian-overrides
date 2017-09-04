@@ -1,0 +1,8 @@
+# We hard-depend on yelp
+ubuntu-mate-guide: desktop-command-not-in-package usr/share/applications/ubuntu-mate-guide.desktop yelp
+
+# It's literally just linking to the license (that's already included in the package), shouldn't be an issue:
+ubuntu-mate-guide: privacy-breach-generic usr/share/help/C/ubuntu-mate-guide/legal.xml (http://creativecommons.org/licenses/by/4.0/)
+
+# Be quiet, Lintian... It's verbose enough, OK?
+ubuntu-mate-guide: extended-description-is-probably-too-short

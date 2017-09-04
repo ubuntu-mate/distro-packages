@@ -1,0 +1,16 @@
+Source: ubuntu-mate-guide
+Section: doc
+Priority: optional
+Maintainer: Ubuntu MATE Team <ubuntu-mate-dev@lists.launchpad.net>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.0
+Homepage: https://github.com/ubuntu-mate/ubuntu-mate-guide
+Vcs-Git: https://github.com/ubuntu-mate/distro-packages.git
+Vcs-Browser: https://github.com/ubuntu-mate/distro-packages
+
+Package: ubuntu-mate-guide
+Architecture: all
+Depends: yelp, ${misc:Depends}
+Description: Official Ubuntu MATE Guide
+ The official Ubuntu MATE guide, to help new users navigate their system.
+ It's written in XML and is viewable by using Yelp (default) or other tools.
