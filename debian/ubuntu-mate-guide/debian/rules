@@ -3,3 +3,6 @@ export DH_VERBOSE = 1
 
 %:
 	dh $@
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..
