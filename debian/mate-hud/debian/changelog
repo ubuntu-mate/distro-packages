@@ -1,3 +1,9 @@
+mate-hud (17.10.9-0ubuntu1) artful; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 23 Sep 2017 16:40:13 +0100
+
 mate-hud (17.10.8-0ubuntu1) artful; urgency=medium
 
   * New upstream release. (LP: #1711857)
