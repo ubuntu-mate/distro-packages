@@ -1,17 +1,18 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: mate-hud
 Upstream-Contact: Martin Wimpress <code@ubuntu-mate.org>
-Source: https://bitbucket.org/ubuntu-mate/mate-hud
+Source: https://github.com/ubuntu-mate/mate-hud
 
 Files: usr/lib/mate-hud/mate-hud
-Copyright: 2016-2017, Martin Wimpress <code@ubuntu-mate.org>
+Copyright: 2016-2018, Martin Wimpress <code@ubuntu-mate.org>
            2015, JAMcNaughton
            2014, Rafaël Bocquet
 License: GPL-2+
 
-Files: usr/share/glib-2.0/schemas/*.xml       
+Files: usr/share/glib-2.0/schemas/*.xml
+       usr/share/mate/autostart/mate-hud.desktop
        setup.py
-Copyright: 2016, Martin Wimpress <code@ubuntu-mate.org>
+Copyright: 2016-2018, Martin Wimpress <code@ubuntu-mate.org>
 License: GPL-2+
 
 Files: debian/*
