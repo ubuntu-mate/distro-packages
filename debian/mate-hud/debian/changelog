@@ -1,3 +1,9 @@
+mate-hud (18.04.5-0ubuntu1) bionic; urgency=medium
+
+  * New upstream release. (LP: #1734271)
+
+ -- Martin Wimpress <martin.wimpress@canonical.com>  Thu, 15 Feb 2018 15:18:04 +0000
+
 mate-hud (18.04.4-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
