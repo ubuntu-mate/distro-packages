@@ -1,3 +1,9 @@
+ubuntu-mate-guide (18.04.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 15 Mar 2018 21:37:45 -0500
+
 ubuntu-mate-guide (17.10.1-0ubuntu1) artful; urgency=medium
 
   * Initial release.
