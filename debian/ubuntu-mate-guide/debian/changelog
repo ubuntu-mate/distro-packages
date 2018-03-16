@@ -1,5 +1,5 @@
-ubuntu-mate-guide (17.10.1-0ubuntu1) UNRELEASED; urgency=medium
+ubuntu-mate-guide (17.10.1-0ubuntu1) artful; urgency=medium
 
   * Initial release.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 27 Aug 2017 15:24:08 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 04 Sep 2017 16:12:32 -0500
