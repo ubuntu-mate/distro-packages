@@ -4,11 +4,11 @@ Upstream-Contact: https://github.com/ubuntu-mate/ubuntu-mate-guide/issues/new
 Source: https://github.com/ubuntu-mate/ubuntu-mate-guide
 
 Files: *
-Copyright: 2017 Larry Bushey <goinglinux@gmail.com>
+Copyright: 2017-2018 Larry Bushey <goinglinux@gmail.com>
 License: CC-BY-4.0
 
 Files: debian/*
-Copyright: 2017 Simon Quigley <tsimonq2@ubuntu.com>
+Copyright: 2017-2018 Simon Quigley <tsimonq2@ubuntu.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
