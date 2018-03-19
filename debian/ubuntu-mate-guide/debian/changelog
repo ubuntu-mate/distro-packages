@@ -1,4 +1,4 @@
-ubuntu-mate-guide (18.04.0-0ubuntu1) UNRELEASED; urgency=medium
+ubuntu-mate-guide (18.04.0-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
   * Bump Standards-version to 4.1.3, no changes needed.
@@ -6,7 +6,7 @@ ubuntu-mate-guide (18.04.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update install file for the upstream file relocations.
   * Remove unused Lintian override.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 15 Mar 2018 21:37:45 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 19 Mar 2018 00:12:38 -0500
 
 ubuntu-mate-guide (17.10.1-0ubuntu1) artful; urgency=medium
 
