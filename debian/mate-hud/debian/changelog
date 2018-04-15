@@ -1,3 +1,9 @@
+mate-hud (18.04.8-0ubuntu1) bionic; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Fri, 30 Mar 2018 09:48:43 +0100
+
 mate-hud (18.04.7-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
