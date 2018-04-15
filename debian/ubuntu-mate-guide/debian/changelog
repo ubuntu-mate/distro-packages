@@ -1,3 +1,9 @@
+ubuntu-mate-guide (18.04.3-0ubuntu1) bionic; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 15 Apr 2018 11:04:52 +0100
+
 ubuntu-mate-guide (18.04.1-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
