@@ -1,3 +1,9 @@
+mate-hud (19.10.0-0ubuntu1) eoan; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Tue, 07 May 2019 23:12:55 +0100
+
 mate-hud (18.10.1-0ubuntu1) cosmic; urgency=medium
 
   * New upstream release.
