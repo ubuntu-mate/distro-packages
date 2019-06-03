@@ -1,0 +1,30 @@
+deja-dup-caja (0.0.8-0ubuntu1) eaon; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Mon, 03 Jun 2019 18:33:17 +0100
+
+deja-dup-caja (0.0.4-0ubuntu2) wily; urgency=medium
+
+  * Fixes namespace collision. (Closes LP: #1508353)
+
+ -- Martin Wimpress <code@flexion.org>  Wed, 21 Oct 2015 09:34:47 +0100
+
+deja-dup-caja (0.0.4-0ubuntu1) wily; urgency=medium
+
+  [ Marcos Costales ]
+  * Initial Release.
+
+  [ Bhavani Shankar ]
+  * Repackage the tarball.
+    + Make debian/copyright compliant to the latest standards.
+    + Set standards-version.
+    + Use ubuntu address of the maintainer.
+    + Tweak the description to be more specific.
+    + Priority is set to optional.
+    + Use dh_python2.
+    + Use source 1.0 format.
+    + Add a watch file.
+    + Install README file
+
+ -- Bhavani Shankar <bhavi@ubuntu.com>  Mon, 03 Aug 2015 08:28:13 +0530

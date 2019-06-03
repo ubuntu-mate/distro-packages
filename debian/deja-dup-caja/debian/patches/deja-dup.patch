@@ -1,0 +1,43 @@
+Author: Martin Wimpress <code@flexion.org>
+Bug-Ubuntu: https://bugs.launchpad.net/bugs/1508353
+Last-Update: <2015-10-21>
+Description: Changes to fix namespace collision with deja-dup-caja.
+
+---
+ README   |    5 ++++-
+ setup.py |    2 +-
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+
+Index: b/README
+===================================================================
+--- a/README
++++ b/README
+@@ -3,12 +3,15 @@ Deja Dup Caja © 2015 ﻿﻿Marcos Alvar
+ 
+ WHAT IS IT?
+ ===========
+-A Caja extension for backup/restore files/folders in an easy way from a contextual menu.
++A Caja extension to backup/restore files/folders in an easy way from a contextual menu.
+ 
+ 
+ 
+ HOW DO I INSTALL & RUN IT?
+ ==========================
++
++For the latest source you can install from a PPA using the below steps:
++
+ From a PPA:
+     # add-apt-repository ppa:costales/deja-dup-caja
+     # apt-get update && sudo apt-get install deja-dup-caja
+Index: b/setup.py
+===================================================================
+--- a/setup.py
++++ b/setup.py
+@@ -33,6 +33,6 @@ DistUtilsExtra.auto.setup(
+     author_email = "https://launchpad.net/~costales",
+     url          = "https://launchpad.net/deja-dup-caja",
+     license      = "GPL3",
+-    data_files   = data
++    #data_files   = data
+     )
+ 
