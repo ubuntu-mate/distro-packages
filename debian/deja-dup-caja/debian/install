@@ -1,3 +1,2 @@
 #!/usr/bin/dh-exec
 caja-extension/dejadup.py usr/share/caja-python/extensions
-README usr/share/doc/deja-dup-caja/README
