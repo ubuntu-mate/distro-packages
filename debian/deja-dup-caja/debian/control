@@ -6,24 +6,24 @@ Build-Depends: debhelper (>= 11~),
                dh-exec,
                dh-python,
                python3,
-               python3-setuptools,
                python3-distutils-extra,
+               python3-setuptools,
 Standards-Version: 4.3.0
 Homepage: https://code.launchpad.net/deja-dup-caja
 
 Package: deja-dup-caja
 Architecture: all
-Depends: caja,
+Depends: ${misc:Depends},
+         ${python3:Depends},
+         caja,
          deja-dup,
          gir1.2-caja-2.0,
          gir1.2-gtk-3.0,
          python-caja,
-         ${python3:Depends},
-         ${misc:Depends}
-Description: deja dup extension for caja file browser
+Description: Caja extension for Déjà Dup
  Déjà Dup is a simple backup tool. It hides the complexity of backing up the
  Right Way (encrypted, off-site, and regular) and uses duplicity as the
  backend.
  .
- This package provides a contextual menu in the Caja file browser to backup
+ This package provides a contextual menu in the Caja file manager to backup
  and restore your files.
