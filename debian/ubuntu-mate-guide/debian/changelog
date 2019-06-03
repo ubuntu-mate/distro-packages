@@ -1,3 +1,9 @@
+ubuntu-mate-guide (18.04.5-0ubuntu1) eoan; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Wed, 08 May 2019 00:10:39 +0100
+
 ubuntu-mate-guide (18.04.4-0ubuntu1) bionic; urgency=medium
 
   * New upstream release.
