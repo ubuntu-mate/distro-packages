@@ -1,0 +1,28 @@
+Source: magnus
+Section: utils
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Uploaders: Martin Wimpress <code@ubuntu-mate.org>,
+           Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: debhelper (>= 11~),
+               dh-python,
+               python3,
+               python3-distutils-extra,
+               python3-setuptools,
+Standards-Version: 4.3.0
+Homepage: https://github.com/stuartlangridge/magnus
+Vcs-Browser: https://salsa.debian.org/debian-mate-team/magnus
+Vcs-Git: https://salsa.debian.org/debian-mate-team/magnus.git
+
+Package: magnus
+Architecture: all
+Depends: gir1.2-gdkpixbuf-2.0,
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         python3 (>= 3.3),
+         python3-gi,
+         python3-setproctitle,
+         ${misc:Depends},
+         ${python3:Depends},
+Description: A very simple screen magnifier
+ A very simple screen magnifier for visually impaired users.
