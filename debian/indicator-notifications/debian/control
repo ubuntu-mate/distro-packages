@@ -1,0 +1,20 @@
+Source: indicator-notifications
+Section: misc
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 12),
+               pkg-config,
+               intltool,
+               libindicator3-dev (>= 0.3.93),
+               libglib2.0-dev (>= 2.29),
+               libgdk-pixbuf2.0-dev (>= 2.22),
+               libgtk-3-dev (>= 3.1)
+Standards-Version: 4.3.0
+Homepage: http://launchpad.net/recent-notifications
+
+Package: indicator-notifications
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: View recent notifications
+ An indicator applet to display recent notifications
+ sent to a notification daemon such as notify-osd.

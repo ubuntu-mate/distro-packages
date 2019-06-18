@@ -1,0 +1,5 @@
+indicator-notifications (0.3.3-0ubuntu1) eoan; urgency=medium
+
+  * Initial release (LP: #1828099).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 07 May 2019 13:40:49 -0500
