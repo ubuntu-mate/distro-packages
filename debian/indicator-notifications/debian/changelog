@@ -1,3 +1,9 @@
+indicator-notifications (0.4.0-0ubuntu1) eoan; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Tue, 18 Jun 2019 12:36:06 +0100
+
 indicator-notifications (0.3.3-0ubuntu1) eoan; urgency=medium
 
   * Initial release (LP: #1828099).
