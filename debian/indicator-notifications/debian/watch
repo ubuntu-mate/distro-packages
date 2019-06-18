@@ -1,0 +1,2 @@
+version=3
+https://github.com/trism/indicator-notifications/tags .*/V?(\d\S*)\.tar\.gz
