@@ -1,0 +1,708 @@
+Author: Jason Conti <jason.conti@gmail.com>
+Description: Add do not disturb setting.
+
+diff --git a/data/icons/Makefile.am b/data/icons/Makefile.am
+index 2543305..20957f1 100644
+--- a/data/icons/Makefile.am
++++ b/data/icons/Makefile.am
+@@ -3,6 +3,8 @@ iconsdir = $(INDICATORICONSDIR)
+ icons_DATA = \
+ 	     indicator-notification-close-select.svg \
+ 	     indicator-notification-close-deselect.svg \
++	     indicator-notification-read-dnd.svg \
++	     indicator-notification-unread-dnd.svg \
+ 	     indicator-notification-read.svg \
+ 	     indicator-notification-unread.svg
+ 
+diff --git a/data/icons/indicator-notification-read-dnd.svg b/data/icons/indicator-notification-read-dnd.svg
+new file mode 100644
+index 0000000..d262e90
+--- /dev/null
++++ b/data/icons/indicator-notification-read-dnd.svg
+@@ -0,0 +1,155 @@
++<?xml version="1.0" encoding="UTF-8" standalone="no"?>
++<!-- Created with Inkscape (http://www.inkscape.org/) -->
++
++<svg
++   xmlns:dc="http://purl.org/dc/elements/1.1/"
++   xmlns:cc="http://creativecommons.org/ns#"
++   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
++   xmlns:svg="http://www.w3.org/2000/svg"
++   xmlns="http://www.w3.org/2000/svg"
++   xmlns:xlink="http://www.w3.org/1999/xlink"
++   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
++   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
++   width="24"
++   height="24"
++   id="svg2"
++   version="1.1"
++   inkscape:version="0.92.3 (2405546, 2018-03-11)"
++   sodipodi:docname="indicator-notification-read-dnd.svg">
++  <defs
++     id="defs4">
++    <linearGradient
++       inkscape:collect="always"
++       id="linearGradient4299">
++      <stop
++         style="stop-color:#f4a41b;stop-opacity:1;"
++         offset="0"
++         id="stop4301" />
++      <stop
++         style="stop-color:#f4a41b;stop-opacity:0;"
++         offset="1"
++         id="stop4303" />
++    </linearGradient>
++    <linearGradient
++       id="linearGradient3903">
++      <stop
++         style="stop-color:#93d4fd;stop-opacity:0.38793105;"
++         offset="0"
++         id="stop3905" />
++      <stop
++         style="stop-color:#93d4fd;stop-opacity:0;"
++         offset="1"
++         id="stop3907" />
++    </linearGradient>
++    <inkscape:perspective
++       sodipodi:type="inkscape:persp3d"
++       inkscape:vp_x="0 : 526.18109 : 1"
++       inkscape:vp_y="0 : 1000 : 0"
++       inkscape:vp_z="744.09448 : 526.18109 : 1"
++       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
++       id="perspective10" />
++    <inkscape:perspective
++       id="perspective10-0"
++       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
++       inkscape:vp_z="744.09448 : 526.18109 : 1"
++       inkscape:vp_y="0 : 1000 : 0"
++       inkscape:vp_x="0 : 526.18109 : 1"
++       sodipodi:type="inkscape:persp3d" />
++    <radialGradient
++       inkscape:collect="always"
++       xlink:href="#linearGradient4299"
++       id="radialGradient4305"
++       cx="23.334524"
++       cy="50.32896"
++       fx="23.334524"
++       fy="50.32896"
++       r="22.375"
++       gradientTransform="matrix(0.55780357,-0.59636345,0.65404398,0.61175304,-22.59891,26.884319)"
++       gradientUnits="userSpaceOnUse" />
++  </defs>
++  <sodipodi:namedview
++     id="base"
++     pagecolor="#ffffff"
++     bordercolor="#666666"
++     borderopacity="1.0"
++     inkscape:pageopacity="0.0"
++     inkscape:pageshadow="2"
++     inkscape:zoom="11.313709"
++     inkscape:cx="6.5016528"
++     inkscape:cy="16.607102"
++     inkscape:document-units="px"
++     inkscape:current-layer="layer1"
++     showgrid="false"
++     inkscape:window-width="975"
++     inkscape:window-height="744"
++     inkscape:window-x="1409"
++     inkscape:window-y="24"
++     inkscape:window-maximized="1"
++     inkscape:snap-global="false">
++    <inkscape:grid
++       type="xygrid"
++       id="grid2837"
++       empspacing="5"
++       visible="true"
++       enabled="true"
++       snapvisiblegridlinesonly="true" />
++  </sodipodi:namedview>
++  <metadata
++     id="metadata7">
++    <rdf:RDF>
++      <cc:Work
++         rdf:about="">
++        <dc:format>image/svg+xml</dc:format>
++        <dc:type
++           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
++        <dc:title></dc:title>
++      </cc:Work>
++    </rdf:RDF>
++  </metadata>
++  <g
++     inkscape:label="Layer 1"
++     inkscape:groupmode="layer"
++     id="layer1"
++     transform="translate(0,-1028.3622)">
++    <path
++       sodipodi:nodetypes="cccccc"
++       id="path3608"
++       d="m 2.380545,1047.5939 9.201001,0.094 10.070171,-2.2285 c 0,0 0.560326,-12.1305 -4.581102,-12.4227 l -10.4828829,2.2699 c -4.3909986,1.0892 -4.371099,11.643 -4.2071871,12.2878 z"
++       style="fill:#e6ddd5;stroke:#e6ddd5;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1" />
++    <path
++       style="fill:none;stroke:#333333;stroke-width:1.32067811;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
++       d="m 2.380545,1047.5939 9.201001,0.094 10.070171,-2.2285 c 0,0 0.560326,-12.1305 -4.581102,-12.4227 l -10.4828829,2.2699 c -4.3909986,1.0892 -4.371099,11.643 -4.2071871,12.2878 z"
++       id="path4169-3"
++       sodipodi:nodetypes="cccccc" />
++    <path
++       style="fill:#333333;fill-opacity:1;stroke:none"
++       d="m 6.9815782,1035.5579 c -5.3451258,0 -4.9584325,12.5337 -4.7874588,12.4226 h 9.5749166 c 0,0 0.557668,-12.4226 -4.7874578,-12.4226 z"
++       id="path4142"
++       inkscape:connector-curvature="0"
++       sodipodi:nodetypes="sccs" />
++    <path
++       style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
++       d="m 13.630118,1040.198 5.39169,-1.3037 0.104962,0.088 0.245828,2.7124 -0.08563,0.072 -1.343935,0.4377 -0.114473,-0.018 -0.08839,-1.2817 -3.964172,0.9926 -0.162728,-0.042 -0.07826,-1.5317 z"
++       id="path843"
++       inkscape:connector-curvature="0"
++       sodipodi:nodetypes="cccccccccccc" />
++    <path
++       style="opacity:1;fill:#e6ddd5;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
++       d="m 2.674563,1047.3574 c 0,0 -0.46875,-11.1249 3.84375,-11.3124 4.3125,-0.1875 4.136643,11.3963 4.136643,11.3963 z"
++       id="path845"
++       inkscape:connector-curvature="0"
++       sodipodi:nodetypes="cscc" />
++    <ellipse
++       style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:5.3271842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
++       id="path847"
++       cx="6.5000072"
++       cy="1040.3783"
++       rx="2.09375"
++       ry="2.046875" />
++    <path
++       style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
++       d="m 5.500007,1041.4253 -1.0625,4.375 3.875,-0.031 -1.0625,-4.4688 z"
++       id="path849"
++       inkscape:connector-curvature="0" />
++  </g>
++</svg>
+diff --git a/data/icons/indicator-notification-unread-dnd.svg b/data/icons/indicator-notification-unread-dnd.svg
+new file mode 100644
+index 0000000..23b859e
+--- /dev/null
++++ b/data/icons/indicator-notification-unread-dnd.svg
+@@ -0,0 +1,218 @@
++<?xml version="1.0" encoding="UTF-8" standalone="no"?>
++<!-- Created with Inkscape (http://www.inkscape.org/) -->
++
++<svg
++   xmlns:dc="http://purl.org/dc/elements/1.1/"
++   xmlns:cc="http://creativecommons.org/ns#"
++   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
++   xmlns:svg="http://www.w3.org/2000/svg"
++   xmlns="http://www.w3.org/2000/svg"
++   xmlns:xlink="http://www.w3.org/1999/xlink"
++   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
++   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
++   width="24"
++   height="24"
++   id="svg2"
++   version="1.1"
++   inkscape:version="0.92.3 (2405546, 2018-03-11)"
++   sodipodi:docname="indicator-notification-unread-dnd.svg">
++  <defs
++     id="defs4">
++    <linearGradient
++       id="linearGradient3731">
++      <stop
++         style="stop-color:#ffffff;stop-opacity:1;"
++         offset="0"
++         id="stop3733" />
++      <stop
++         style="stop-color:#ffffff;stop-opacity:0;"
++         offset="1"
++         id="stop3735" />
++    </linearGradient>
++    <linearGradient
++       id="linearGradient3715">
++      <stop
++         style="stop-color:#ffffff;stop-opacity:1;"
++         offset="0"
++         id="stop3717" />
++      <stop
++         style="stop-color:#ffffff;stop-opacity:0;"
++         offset="1"
++         id="stop3719" />
++    </linearGradient>
++    <linearGradient
++       id="linearGradient3705">
++      <stop
++         style="stop-color:#ddeb7b;stop-opacity:1;"
++         offset="0"
++         id="stop3707" />
++      <stop
++         id="stop3713"
++         offset="0.32225218"
++         style="stop-color:#b1c948;stop-opacity:1;" />
++      <stop
++         style="stop-color:#769123;stop-opacity:1;"
++         offset="1"
++         id="stop3709" />
++    </linearGradient>
++    <linearGradient
++       inkscape:collect="always"
++       id="linearGradient4299">
++      <stop
++         style="stop-color:#f4a41b;stop-opacity:1;"
++         offset="0"
++         id="stop4301" />
++      <stop
++         style="stop-color:#f4a41b;stop-opacity:0;"
++         offset="1"
++         id="stop4303" />
++    </linearGradient>
++    <linearGradient
++       id="linearGradient3903">
++      <stop
++         style="stop-color:#93d4fd;stop-opacity:0.38793105;"
++         offset="0"
++         id="stop3905" />
++      <stop
++         style="stop-color:#93d4fd;stop-opacity:0;"
++         offset="1"
++         id="stop3907" />
++    </linearGradient>
++    <inkscape:perspective
++       sodipodi:type="inkscape:persp3d"
++       inkscape:vp_x="0 : 526.18109 : 1"
++       inkscape:vp_y="0 : 1000 : 0"
++       inkscape:vp_z="744.09448 : 526.18109 : 1"
++       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
++       id="perspective10" />
++    <inkscape:perspective
++       id="perspective10-0"
++       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
++       inkscape:vp_z="744.09448 : 526.18109 : 1"
++       inkscape:vp_y="0 : 1000 : 0"
++       inkscape:vp_x="0 : 526.18109 : 1"
++       sodipodi:type="inkscape:persp3d" />
++    <radialGradient
++       inkscape:collect="always"
++       xlink:href="#linearGradient4299"
++       id="radialGradient4305"
++       cx="23.334524"
++       cy="50.32896"
++       fx="23.334524"
++       fy="50.32896"
++       r="22.375"
++       gradientTransform="matrix(0.55780357,-0.59636345,0.65404398,0.61175304,-22.59891,26.884319)"
++       gradientUnits="userSpaceOnUse" />
++    <radialGradient
++       inkscape:collect="always"
++       xlink:href="#linearGradient3705"
++       id="radialGradient3711"
++       cx="10.492408"
++       cy="1036.2013"
++       fx="10.492408"
++       fy="1036.2013"
++       r="9.2527103"
++       gradientTransform="matrix(1.1630415,-0.02510768,0.02514309,1.1646812,-27.763993,-169.37081)"
++       gradientUnits="userSpaceOnUse" />
++    <linearGradient
++       inkscape:collect="always"
++       xlink:href="#linearGradient3731"
++       id="linearGradient3765"
++       x1="7.7901888"
++       y1="2.3797531"
++       x2="17.786634"
++       y2="18.880793"
++       gradientUnits="userSpaceOnUse" />
++  </defs>
++  <sodipodi:namedview
++     id="base"
++     pagecolor="#ffffff"
++     bordercolor="#666666"
++     borderopacity="1.0"
++     inkscape:pageopacity="0.0"
++     inkscape:pageshadow="2"
++     inkscape:zoom="8"
++     inkscape:cx="5.5156841"
++     inkscape:cy="4.9533255"
++     inkscape:document-units="px"
++     inkscape:current-layer="layer1"
++     showgrid="false"
++     inkscape:window-width="975"
++     inkscape:window-height="744"
++     inkscape:window-x="1409"
++     inkscape:window-y="24"
++     inkscape:window-maximized="1"
++     inkscape:snap-global="false">
++    <inkscape:grid
++       type="xygrid"
++       id="grid2837"
++       empspacing="5"
++       visible="true"
++       enabled="true"
++       snapvisiblegridlinesonly="true" />
++  </sodipodi:namedview>
++  <metadata
++     id="metadata7">
++    <rdf:RDF>
++      <cc:Work
++         rdf:about="">
++        <dc:format>image/svg+xml</dc:format>
++        <dc:type
++           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
++        <dc:title></dc:title>
++      </cc:Work>
++    </rdf:RDF>
++  </metadata>
++  <g
++     inkscape:label="Layer 1"
++     inkscape:groupmode="layer"
++     id="layer1"
++     transform="translate(0,-1028.3622)">
++    <path
++       sodipodi:nodetypes="cccccc"
++       id="path3703"
++       d="m 2.7953316,1047.282 8.8042584,0.09 9.635949,-2.1324 c 0,0 0.536165,-11.6075 -4.383567,-11.8871 l -10.0308654,2.172 c -4.2016607,1.0423 -4.1826191,11.141 -4.025775,11.758 z"
++       style="fill:url(#radialGradient3711);stroke:none;stroke-width:1.26373099999999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;fill-opacity:1" />
++    <path
++       style="fill:none;stroke:#699536;stroke-width:1.32067811000000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
++       d="m 2.380545,1047.5939 9.201001,0.094 10.070171,-2.2285 c 0,0 0.560326,-12.1305 -4.581102,-12.4227 l -10.4828829,2.2699 c -4.3909986,1.0892 -4.371099,11.643 -4.2071871,12.2878 z"
++       id="path4169-3"
++       sodipodi:nodetypes="cccccc" />
++    <path
++       style="fill:#699536;fill-opacity:1;stroke:none"
++       d="m 6.9815782,1035.5579 c -5.3451258,0 -4.9584325,12.5337 -4.7874588,12.4226 h 9.5749166 c 0,0 0.557668,-12.4226 -4.7874578,-12.4226 z"
++       id="path4142"
++       inkscape:connector-curvature="0"
++       sodipodi:nodetypes="sccs" />
++    <path
++       style="fill:none;stroke:url(#linearGradient3765);stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
++       d="m 8.2917587,7.3479557 8.7029203,-2.055808 c 0,0 1.774725,0.4583809 3.083712,4.111616 1.420216,3.9636653 1.164958,6.8526933 1.164958,6.8526933 l -9.182609,2.124335 c 0,0 0.137054,-2.329916 -0.753796,-6.578586 C 10.416094,7.5535365 8.2232318,7.2794287 8.2917587,7.3479557 z"
++       id="path3757"
++       transform="translate(0,1028.3622)"
++       sodipodi:nodetypes="ccsccsc" />
++    <path
++       style="opacity:1;fill:#699536;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
++       d="m 13.567611,1040.0099 5.39169,-1.3037 0.104962,0.088 0.245828,2.7124 -0.08563,0.072 -1.343935,0.4377 -0.114473,-0.018 -0.08839,-1.2817 -3.964172,0.9926 -0.162728,-0.042 -0.07826,-1.5317 z"
++       id="path843"
++       inkscape:connector-curvature="0"
++       sodipodi:nodetypes="cccccccccccc" />
++    <path
++       style="opacity:1;fill:#b5cc4c;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
++       d="m 2.6120559,1047.1693 c 0,0 -0.46875,-11.1249 3.84375,-11.3124 4.3125001,-0.1875 4.1366431,11.3963 4.1366431,11.3963 z"
++       id="path845"
++       inkscape:connector-curvature="0"
++       sodipodi:nodetypes="cscc" />
++    <ellipse
++       style="opacity:1;fill:#699536;fill-opacity:1;stroke:none;stroke-width:5.3271842;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
++       id="path847"
++       cx="6.4375"
++       cy="1040.1903"
++       rx="2.09375"
++       ry="2.046875" />
++    <path
++       style="opacity:1;fill:#699536;fill-opacity:1;stroke:none;stroke-width:3.77952766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
++       d="m 5.4375,1041.2372 -1.0625,4.375 3.875,-0.031 -1.0625,-4.4688 z"
++       id="path849"
++       inkscape:connector-curvature="0" />
++  </g>
++</svg>
+diff --git a/data/net.launchpad.indicator.notifications.gschema.xml.in.in b/data/net.launchpad.indicator.notifications.gschema.xml.in.in
+index d04251d..d31c182 100644
+--- a/data/net.launchpad.indicator.notifications.gschema.xml.in.in
++++ b/data/net.launchpad.indicator.notifications.gschema.xml.in.in
+@@ -15,6 +15,11 @@
+       <summary>Clear notifications on middle click</summary>
+       <description>Normally when middle clicking the notification icon, the unread status will be toggled if the queue is not empty. With this option enabled, the notification queue will be cleared instead.</description>
+     </key>
++    <key name="do-not-disturb" type="b">
++      <default>false</default>
++      <summary>Enable do-not-disturb mode</summary>
++      <description>On supported desktops enables do-not-disturb mode on the notification daemon.</description>
++    </key>
+     <key name="hide-indicator" type="b">
+       <default>false</default>
+       <summary>Hide the indicator</summary>
+diff --git a/src/indicator-notifications-settings.c b/src/indicator-notifications-settings.c
+index 1c79fcd..806c344 100644
+--- a/src/indicator-notifications-settings.c
++++ b/src/indicator-notifications-settings.c
+@@ -228,8 +228,9 @@ indicator_notifications_settings_activate(GApplication *app)
+   GtkWidget *window;
+   GtkWidget *frame;
+   GtkWidget *vbox;
+-  GtkWidget *button_1;
+-  GtkWidget *button_2;
++  GtkWidget *button_cmc;
++  GtkWidget *button_hide_ind;
++  GtkWidget *button_dnd;
+   GtkWidget *spin;
+   GtkWidget *spin_label;
+   GtkWidget *blacklist_label;
+@@ -238,8 +239,8 @@ indicator_notifications_settings_activate(GApplication *app)
+   GtkTreeViewColumn *column;
+   GtkCellRenderer *renderer;
+   GtkWidget *hbox;
+-  GtkWidget *button_3;
+-  GtkWidget *button_4;
++  GtkWidget *button_blacklist_rem;
++  GtkWidget *button_blacklist_add;
+   GtkEntryCompletion *entry_completion;
+   GtkListStore *entry_list;
+ 
+@@ -274,22 +275,31 @@ indicator_notifications_settings_activate(GApplication *app)
+   gtk_widget_show(vbox);
+ 
+   /* clear-on-middle-click */
+-  button_1 = gtk_check_button_new_with_label(_("Clear notifications on middle click"));
+-  gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(button_1),
++  button_cmc = gtk_check_button_new_with_label(_("Clear notifications on middle click"));
++  gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(button_cmc),
+       g_settings_get_boolean(self->settings, NOTIFICATIONS_KEY_CLEAR_MC));
+-  g_object_set_data(G_OBJECT(button_1), SCHEMA_KEY, NOTIFICATIONS_KEY_CLEAR_MC);
+-  g_signal_connect(button_1, "toggled", G_CALLBACK(button_toggled_cb), self->settings);
+-  gtk_box_pack_start(GTK_BOX(vbox), button_1, FALSE, FALSE, 4);
+-  gtk_widget_show(button_1);
++  g_object_set_data(G_OBJECT(button_cmc), SCHEMA_KEY, NOTIFICATIONS_KEY_CLEAR_MC);
++  g_signal_connect(button_cmc, "toggled", G_CALLBACK(button_toggled_cb), self->settings);
++  gtk_box_pack_start(GTK_BOX(vbox), button_cmc, FALSE, FALSE, 4);
++  gtk_widget_show(button_cmc);
+ 
+   /* hide-indicator */
+-  button_2 = gtk_check_button_new_with_label(_("Hide indicator"));
+-  gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(button_2),
++  button_hide_ind = gtk_check_button_new_with_label(_("Hide indicator"));
++  gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(button_hide_ind),
+       g_settings_get_boolean(self->settings, NOTIFICATIONS_KEY_HIDE_INDICATOR));
+-  g_object_set_data(G_OBJECT(button_2), SCHEMA_KEY, NOTIFICATIONS_KEY_HIDE_INDICATOR);
+-  g_signal_connect(button_2, "toggled", G_CALLBACK(button_toggled_cb), self->settings);
+-  gtk_box_pack_start(GTK_BOX(vbox), button_2, FALSE, FALSE, 4);
+-  gtk_widget_show(button_2);
++  g_object_set_data(G_OBJECT(button_hide_ind), SCHEMA_KEY, NOTIFICATIONS_KEY_HIDE_INDICATOR);
++  g_signal_connect(button_hide_ind, "toggled", G_CALLBACK(button_toggled_cb), self->settings);
++  gtk_box_pack_start(GTK_BOX(vbox), button_hide_ind, FALSE, FALSE, 4);
++  gtk_widget_show(button_hide_ind);
++
++  /* do-not-disturb */
++  button_dnd = gtk_check_button_new_with_label(_("Do not disturb"));
++  gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(button_dnd),
++      g_settings_get_boolean(self->settings, NOTIFICATIONS_KEY_DND));
++  g_object_set_data(G_OBJECT(button_dnd), SCHEMA_KEY, NOTIFICATIONS_KEY_DND);
++  g_signal_connect(button_dnd, "toggled", G_CALLBACK(button_toggled_cb), self->settings);
++  gtk_box_pack_start(GTK_BOX(vbox), button_dnd, FALSE, FALSE, 4);
++  gtk_widget_show(button_dnd);
+ 
+   /* max-items */
+   /* FIXME: indicator does not change max items until restart... */
+@@ -329,15 +339,15 @@ indicator_notifications_settings_activate(GApplication *app)
+   gtk_box_pack_start(GTK_BOX(vbox), hbox, FALSE, FALSE, 0);
+   gtk_widget_show(hbox);
+ 
+-  button_3 = gtk_button_new_with_label(_("Remove"));
+-  g_signal_connect(button_3, "clicked", G_CALLBACK(blacklist_remove_clicked_cb), self);
+-  gtk_box_pack_start(GTK_BOX(hbox), button_3, FALSE, FALSE, 2);
+-  gtk_widget_show(button_3);
++  button_blacklist_rem = gtk_button_new_with_label(_("Remove"));
++  g_signal_connect(button_blacklist_rem, "clicked", G_CALLBACK(blacklist_remove_clicked_cb), self);
++  gtk_box_pack_start(GTK_BOX(hbox), button_blacklist_rem, FALSE, FALSE, 2);
++  gtk_widget_show(button_blacklist_rem);
+ 
+-  button_4 = gtk_button_new_with_label(_("Add"));
+-  g_signal_connect(button_4, "clicked", G_CALLBACK(blacklist_add_clicked_cb), self);
+-  gtk_box_pack_start(GTK_BOX(hbox), button_4, FALSE, FALSE, 2);
+-  gtk_widget_show(button_4);
++  button_blacklist_add = gtk_button_new_with_label(_("Add"));
++  g_signal_connect(button_blacklist_add, "clicked", G_CALLBACK(blacklist_add_clicked_cb), self);
++  gtk_box_pack_start(GTK_BOX(hbox), button_blacklist_add, FALSE, FALSE, 2);
++  gtk_widget_show(button_blacklist_add);
+ 
+   self->blacklist_entry = gtk_entry_new();
+   gtk_box_pack_start(GTK_BOX(hbox), self->blacklist_entry, TRUE, TRUE, 0);
+diff --git a/src/indicator-notifications.c b/src/indicator-notifications.c
+index f7d45f6..6ca847b 100644
+--- a/src/indicator-notifications.c
++++ b/src/indicator-notifications.c
+@@ -61,6 +61,7 @@ struct _IndicatorNotificationsPrivate {
+   GList       *hidden_items;
+ 
+   gboolean     clear_on_middle_click;
++  gboolean     do_not_disturb;
+   gboolean     have_unread;
+   gboolean     hide_indicator;
+ 
+@@ -88,8 +89,10 @@ struct _IndicatorNotificationsPrivate {
+ #include "settings.h"
+ 
+ #define INDICATOR_ICON_SIZE 22
+-#define INDICATOR_ICON_READ   "indicator-notification-read"
+-#define INDICATOR_ICON_UNREAD "indicator-notification-unread"
++#define INDICATOR_ICON_READ       "indicator-notification-read"
++#define INDICATOR_ICON_UNREAD     "indicator-notification-unread"
++#define INDICATOR_ICON_READ_DND   "indicator-notification-read-dnd"
++#define INDICATOR_ICON_UNREAD_DND "indicator-notification-unread-dnd"
+ 
+ #define HINT_MAX 10
+ 
+@@ -115,12 +118,15 @@ static void clear_menuitems(IndicatorNotifications *self);
+ static void insert_menuitem(IndicatorNotifications *self, GtkWidget *item);
+ static void remove_menuitem(IndicatorNotifications *self, GtkWidget *item);
+ static void set_unread(IndicatorNotifications *self, gboolean unread);
++static void update_unread(IndicatorNotifications *self);
+ static void update_blacklist(IndicatorNotifications *self);
+ static void update_clear_item_markup(IndicatorNotifications *self);
+ static void update_indicator_visibility(IndicatorNotifications *self);
+ static void load_blacklist_hints(IndicatorNotifications *self);
+ static void save_blacklist_hints(IndicatorNotifications *self);
+ static void update_blacklist_hints(IndicatorNotifications *self, Notification *notification);
++static void update_do_not_disturb(IndicatorNotifications *self);
++static void settings_try_set_boolean(const gchar *schema, const gchar *key, gboolean value);
+ 
+ /* Callbacks */
+ static void clear_item_activated_cb(GtkMenuItem *menuitem, gpointer user_data);
+@@ -207,6 +213,7 @@ indicator_notifications_init(IndicatorNotifications *self)
+   /* Connect to GSettings */
+   self->priv->settings = g_settings_new(NOTIFICATIONS_SCHEMA);
+   self->priv->clear_on_middle_click = g_settings_get_boolean(self->priv->settings, NOTIFICATIONS_KEY_CLEAR_MC);
++  self->priv->do_not_disturb = g_settings_get_boolean(self->priv->settings, NOTIFICATIONS_KEY_DND);
+   self->priv->hide_indicator = g_settings_get_boolean(self->priv->settings, NOTIFICATIONS_KEY_HIDE_INDICATOR);
+   self->priv->max_items = g_settings_get_int(self->priv->settings, NOTIFICATIONS_KEY_MAX_ITEMS);
+   update_blacklist(self);
+@@ -280,7 +287,8 @@ get_image(IndicatorObject *io)
+ 
+   if(self->priv->image == NULL) {
+     self->priv->image = GTK_IMAGE(gtk_image_new());
+-    set_unread(self, FALSE);
++    /* We have to wait until the image is created to update do-not-disturb the first time */
++    update_do_not_disturb(self);
+     update_indicator_visibility(self);
+   }
+ 
+@@ -434,14 +442,37 @@ set_unread(IndicatorNotifications *self, gboolean unread)
+ {
+   g_return_if_fail(IS_INDICATOR_NOTIFICATIONS(self));
+ 
+-  if(unread) {
+-    gtk_image_set_from_icon_name(self->priv->image, INDICATOR_ICON_UNREAD, GTK_ICON_SIZE_MENU);
++  self->priv->have_unread = unread;
++  update_unread(self);
++}
++
++/**
++ * update_unread:
++ * @self: the indicator object
++ *
++ * Updates the indicator icons.
++ **/
++static void
++update_unread(IndicatorNotifications *self)
++{
++  g_return_if_fail(IS_INDICATOR_NOTIFICATIONS(self));
++
++  if(self->priv->have_unread) {
++    if (self->priv->do_not_disturb) {
++      gtk_image_set_from_icon_name(self->priv->image, INDICATOR_ICON_UNREAD_DND, GTK_ICON_SIZE_MENU);
++    }
++    else {
++      gtk_image_set_from_icon_name(self->priv->image, INDICATOR_ICON_UNREAD, GTK_ICON_SIZE_MENU);
++    }
+   }
+   else {
+-    gtk_image_set_from_icon_name(self->priv->image, INDICATOR_ICON_READ, GTK_ICON_SIZE_MENU);
++    if (self->priv->do_not_disturb) {
++      gtk_image_set_from_icon_name(self->priv->image, INDICATOR_ICON_READ_DND, GTK_ICON_SIZE_MENU);
++    }
++    else {
++      gtk_image_set_from_icon_name(self->priv->image, INDICATOR_ICON_READ, GTK_ICON_SIZE_MENU);
++    }
+   }
+-
+-  self->priv->have_unread = unread;
+ }
+ 
+ /**
+@@ -599,6 +630,66 @@ update_blacklist_hints(IndicatorNotifications *self, Notification *notification)
+   save_blacklist_hints(self);
+ }
+ 
++/**
++ * update_do_not_disturb:
++ * @self: the indicator object
++ *
++ * Updates the icon with the do-not-disturb version and sets do-not-disturb options
++ * on external notification daemons that are supported.
++ **/
++static void
++update_do_not_disturb(IndicatorNotifications *self)
++{
++  g_return_if_fail(IS_INDICATOR_NOTIFICATIONS(self));
++
++  update_unread(self);
++
++  /* Mate do-not-disturb support */
++  settings_try_set_boolean(MATE_SCHEMA, MATE_KEY_DND, self->priv->do_not_disturb);
++}
++
++/**
++ * settings_try_set_boolean:
++ * @schema: the GSettings schema
++ * @key: the GSettings key
++ * @value: the boolean value
++ *
++ * Checks to see if the schema and key exist before setting the value.
++ */
++static void
++settings_try_set_boolean(const gchar *schema, const gchar *key, gboolean value)
++{
++  /* Check if we can access the schema */
++  GSettingsSchemaSource *source = g_settings_schema_source_get_default();
++  if (source == NULL) {
++    return;
++  }
++
++  /* Lookup the schema */
++  GSettingsSchema *source_schema = g_settings_schema_source_lookup(source, schema, FALSE);
++
++  /* Couldn't find the schema */
++  if (source_schema == NULL) {
++    return;
++  }
++
++  /* Found the schema, make sure we have the key */
++  if (g_settings_schema_has_key(source_schema, key)) {
++    /* Make sure the key is of boolean type */
++    GSettingsSchemaKey *source_key = g_settings_schema_get_key(source_schema, key);
++
++    if (g_variant_type_equal(g_settings_schema_key_get_value_type(source_key), G_VARIANT_TYPE_BOOLEAN)) {
++      /* Set the value */
++      GSettings *settings = g_settings_new(schema);
++      g_settings_set_boolean(settings, key, value);
++      g_object_unref(settings);
++    }
++
++    g_settings_schema_key_unref(source_key);
++  }
++  g_settings_schema_unref(source_schema);
++}
++
+ /**
+  * clear_item_activated_cb:
+  * @menuitem: the clear menuitem
+@@ -663,6 +754,10 @@ setting_changed_cb(GSettings *settings, gchar *key, gpointer user_data)
+     self->priv->hide_indicator = g_settings_get_boolean(settings, NOTIFICATIONS_KEY_HIDE_INDICATOR);
+     update_indicator_visibility(self);
+   }
++  else if(g_strcmp0(key, NOTIFICATIONS_KEY_DND) == 0) {
++    self->priv->do_not_disturb = g_settings_get_boolean(settings, NOTIFICATIONS_KEY_DND);
++    update_do_not_disturb(self);
++  }
+   else if(g_strcmp0(key, NOTIFICATIONS_KEY_CLEAR_MC) == 0) {
+     self->priv->clear_on_middle_click = g_settings_get_boolean(self->priv->settings, NOTIFICATIONS_KEY_CLEAR_MC);
+   }
+diff --git a/src/settings.h b/src/settings.h
+index cb6c20e..8d12a8b 100644
+--- a/src/settings.h
++++ b/src/settings.h
+@@ -9,7 +9,11 @@
+ #define NOTIFICATIONS_KEY_BLACKLIST       "blacklist"
+ #define NOTIFICATIONS_KEY_BLACKLIST_HINTS "blacklist-hints"
+ #define NOTIFICATIONS_KEY_CLEAR_MC        "clear-on-middle-click"
++#define NOTIFICATIONS_KEY_DND             "do-not-disturb"
+ #define NOTIFICATIONS_KEY_HIDE_INDICATOR  "hide-indicator"
+ #define NOTIFICATIONS_KEY_MAX_ITEMS       "max-items"
+ 
++#define MATE_SCHEMA  "org.mate.NotificationDaemon"
++#define MATE_KEY_DND "do-not-disturb"
++
+ #endif
