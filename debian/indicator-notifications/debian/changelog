@@ -1,3 +1,12 @@
+indicator-notifications (0.4.0-0ubuntu2) eoan; urgency=medium
+
+  * debian/patches:
+    + Add 0001_add_blacklist_hints.patch. Add blacklist hints for recent
+      application names.
+    + Add 0002_add_do_not_disturb.patch. Add do not disturb option.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 31 Aug 2019 21:03:01 +0100
+
 indicator-notifications (0.4.0-0ubuntu1) eoan; urgency=medium
 
   * New upstream release.
