@@ -1,3 +1,9 @@
+indicator-notifications (0.4.2-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 22 Sep 2019 14:26:46 +0100
+
 indicator-notifications (0.4.0-0ubuntu2) eoan; urgency=medium
 
   * debian/patches:
