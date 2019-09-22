@@ -1,4 +1,12 @@
-indicator-notifications (0.4.2-0ubuntu1) UNRELEASED; urgency=medium
+indicator-notifications (0.4.2-0ubuntu1) eoan; urgency=medium
+
+  * debian/patches:
+    + Drop 0001_add_blacklist_hints.patch. Applied upstream.
+    + Drop 0002_add_do_not_disturb.patch. Applied upstream.
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sun, 22 Sep 2019 14:34:47 +0100
+
+indicator-notifications (0.4.2-0ubuntu1~eoan1.0) eoan; urgency=medium
 
   * New upstream release.
 
