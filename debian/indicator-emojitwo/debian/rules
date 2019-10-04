@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+%:
+	dh ${@}
+
+override_dh_missing:
+	dh_missing --fail-missing
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..

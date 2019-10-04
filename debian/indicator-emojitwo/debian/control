@@ -1,0 +1,23 @@
+Source: indicator-emojitwo
+Section: misc
+Priority: optional
+Homepage: https://github.com/ubuntu-mate/indicator-emojitwo
+Build-Depends: debhelper-compat (=12),
+               python3,
+Standards-Version: 4.4.0
+Maintainer: Martin Wimpress <martin.wimpress@ubuntu.com>
+
+Package: indicator-emojitwo
+Depends: gir1.2-appindicator3-0.1,
+         gir1.2-gtk-3.0,
+         gir1.2-notify-0.7,
+         gir1.2-rsvg-2.0,
+         python3-gi,
+         python3-setproctitle,
+         python3,
+         ${misc:Depends},
+Architecture: all
+Description: A emoji picker for the indicator area using Emoji Two
+ Emoji Picker featuring several menus and a search panel.
+ .
+ You must paste the emojis wherever you want to use them.
