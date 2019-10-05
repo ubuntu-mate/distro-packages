@@ -1,3 +1,9 @@
+ubuntu-mate-guide (19.10.2-0ubuntu1) eoan; urgency=medium
+
+  * New upstream release. (LP: #1846849)
+
+ -- Martin Wimpress <martin@ubuntu-mate.org>  Sat, 05 Oct 2019 01:46:44 +0100
+
 ubuntu-mate-guide (19.10.1-0ubuntu1) eoan; urgency=medium
 
   * New upstream release.
