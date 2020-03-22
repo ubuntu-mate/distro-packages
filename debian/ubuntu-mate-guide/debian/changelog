@@ -1,3 +1,11 @@
+ubuntu-mate-guide (20.04.1-0ubuntu1) focal; urgency=medium
+
+  * Updated software-boutique-window.png to 20.04.
+  * Fixed typographical errors.
+  * Replaced out of date images.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Sun, 22 Mar 2020 23:43:52 +0000
+
 ubuntu-mate-guide (20.04.0-0ubuntu1) focal; urgency=medium
 
   * New upstream release.
