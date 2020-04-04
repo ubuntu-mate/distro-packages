@@ -1,3 +1,9 @@
+ubuntu-mate-guide (20.04.2-0ubuntu1) focal; urgency=medium
+
+  * Fixed errors in keyboard shortcut descriptions.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Sat, 04 Apr 2020 23:11:39 +0100
+
 ubuntu-mate-guide (20.04.1-0ubuntu1) focal; urgency=medium
 
   * Updated software-boutique-window.png to 20.04.
