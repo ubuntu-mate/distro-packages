@@ -1,3 +1,9 @@
+ubuntu-mate-guide (21.04.0-0ubuntu1) hirsute; urgency=medium
+
+  * Updated for Ubuntu MATE 21.04 (Hirsute Hippo)
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Thu, 04 Mar 2021 11:46:52 +0000
+
 ubuntu-mate-guide (20.04.2-0ubuntu1) focal; urgency=medium
 
   * Fixed errors in keyboard shortcut descriptions.
