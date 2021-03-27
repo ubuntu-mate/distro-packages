@@ -1,3 +1,9 @@
+ubuntu-mate-guide (21.04.1-0ubuntu1) hirsute; urgency=medium
+
+  * Final updates for Ubuntu MATE 21.04 (Hirsute Hippo)
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Sat, 27 Mar 2021 00:09:41 +0000
+
 ubuntu-mate-guide (21.04.0-0ubuntu1) hirsute; urgency=medium
 
   * Updated for Ubuntu MATE 21.04 (Hirsute Hippo)
